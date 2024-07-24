@@ -1,0 +1,655 @@
+Unreviewed CPLX8NTX77-1        K+                       ATP       
+           putative K+ ATP-driven transporter
+           ATP + K+[extracellular space] + H2O  ->  ADP + K+[cytosol] + phosphate + H+
+Unreviewed CPLX8NTX77-2        an oligopeptide          ATP       
+           putative an oligopeptide ATP-driven transporter
+           an oligopeptide[extracellular space] + ATP + H2O  ->  an oligopeptide[cytosol] + ADP + phosphate + H+
+Unreviewed CPLX8NTX77-3        L-glutamine              ATP       
+           putative L-glutamine ABC transporter
+           ATP + L-glutamine[extracellular space] + H2O  ->  ADP + L-glutamine[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_03089-MONOMER    guanidinium              UNKNOWN   
+           guanidinium exporter
+           guanidinium[cytosol]  ->  guanidinium[extracellular space]
+Unreviewed EIKIBKLN_04100-MONOMER    ATP                      UNKNOWN   
+           atp-binding/permease protein cydd
+           ATP[extracellular space]  <-->  ATP[cytosol]
+Unreviewed EIKIBKLN_04873-MONOMER    ATP                      UNKNOWN   
+           macrolide export atp-binding/permease protein macb
+           ATP[cytosol]  <-->  ATP[extracellular space]
+Unreviewed EIKIBKLN_05309-MONOMER    citrate                  UNKNOWN   
+           citrate transporter
+           citrate[extracellular space]  ->  citrate[cytosol]
+Unreviewed EIKIBKLN_01719-MONOMER    phosphate                ATP       
+           phosphate transport system permease protein psta
+           ATP + phosphate[extracellular space] + H2O  ->  ADP + phosphate[cytosol] + phosphate[cytosol] + H+
+Unreviewed EIKIBKLN_04986-MONOMER    riboflavin               ATP       
+           riboflavin transport system permease protein ribx
+           ATP + riboflavin[extracellular space] + H2O  ->  ADP + riboflavin[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_05168-MONOMER 1  glutathione              UNKNOWN   
+           glutathione-regulated potassium-efflux system protein kefb
+           glutathione[cytosol]  ->  glutathione[extracellular space]
+Unreviewed EIKIBKLN_05168-MONOMER 2  K+                       UNKNOWN   
+           glutathione-regulated potassium-efflux system protein kefb
+           K+[cytosol]  <-->  K+[extracellular space]
+Unreviewed EIKIBKLN_03949-MONOMER    sodium glutamate         SECONDARY 
+           proton/sodium-glutamate symport protein
+           sodium glutamate[extracellular space] + H+[extracellular space]  ->  sodium glutamate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03913-MONOMER    Zn2+                     SECONDARY 
+           cadmium, cobalt and zinc/h(+)-k(+) antiporter
+           Zn2+[extracellular space] + H+[cytosol]  <-  Zn2+[cytosol] + H+[extracellular space]
+Unreviewed EIKIBKLN_04563-MONOMER 1  L-cysteine               UNKNOWN   
+           cysteine/o-acetylserine efflux protein
+           Several possible reactions available for import
+Unreviewed EIKIBKLN_04563-MONOMER 2  O-acetyl-L-serine        UNKNOWN   
+           cysteine/o-acetylserine efflux protein
+           O-acetyl-L-serine[cytosol]  ->  O-acetyl-L-serine[extracellular space]
+Unreviewed EIKIBKLN_05172-MONOMER 1  guanine                  SECONDARY 
+           guanine/hypoxanthine permease pbuo
+           guanine[extracellular space] + H+[extracellular space]  ->  guanine[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_05172-MONOMER 2  hypoxanthine             SECONDARY 
+           guanine/hypoxanthine permease pbuo
+           hypoxanthine[extracellular space] + H+[extracellular space]  <-  hypoxanthine[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_02158-MONOMER    D-glucose                UNKNOWN   
+           putative glucose uptake protein glcu
+           D-glucose[extracellular space]  <-  D-glucose[cytosol]
+Unreviewed EIKIBKLN_03498-MONOMER 1  spermidine               ATP       
+           spermidine/putrescine transport system permease protein potb
+           ATP + spermidine[extracellular space] + H2O  ->  ADP + spermidine[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_03498-MONOMER 2  putrescine               ATP       
+           spermidine/putrescine transport system permease protein potb
+           ATP + putrescine[extracellular space] + H2O  ->  ADP + putrescine[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_01814-MONOMER    petrobactin              SECONDARY 
+           petrobactin import system permease protein fpub
+           petrobactin[extracellular space] + H+[extracellular space]  ->  petrobactin[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03530-MONOMER    K+                       UNKNOWN   
+           ktr system potassium uptake protein b
+           K+[extracellular space]  <-->  K+[cytosol]
+Unreviewed EIKIBKLN_02528-MONOMER    petrobactin              SECONDARY 
+           petrobactin import system permease protein fatc
+           petrobactin[extracellular space] + H+[extracellular space]  ->  petrobactin[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_02231-MONOMER    guanidinium              UNKNOWN   
+           putative guanidinium efflux system subunit gdnd
+           guanidinium[cytosol]  ->  guanidinium[extracellular space]
+Unreviewed EIKIBKLN_05262-MONOMER    a nucleoside             SECONDARY 
+           nucleoside permease nupc
+           a nucleoside[extracellular space] + H+[extracellular space]  ->  a nucleoside[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_05828-MONOMER    L-methionine             SECONDARY 
+           methionine import system permease protein metp
+           L-methionine[extracellular space] + H+[extracellular space]  ->  L-methionine[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_05239-MONOMER    L-arginine               SECONDARY 
+           arginine/ornithine antiporter
+           L-arginine[extracellular space] + ornithine[cytosol]  ->  L-arginine[cytosol] + ornithine[extracellular space]
+Unreviewed EIKIBKLN_03108-MONOMER    L-cystine                ATP       
+           l-cystine transport system permease protein tcyb
+           L-cystine[extracellular space] + ATP + H2O  ->  L-cystine[cytosol] + ADP + phosphate + H+
+Unreviewed EIKIBKLN_02396-MONOMER 1  glutathione              UNKNOWN   
+           glutathione-regulated potassium-efflux system ancillary protein keff
+           glutathione[cytosol]  ->  glutathione[extracellular space]
+Unreviewed EIKIBKLN_02396-MONOMER 2  K+                       UNKNOWN   
+           glutathione-regulated potassium-efflux system ancillary protein keff
+           K+[cytosol]  <-->  K+[extracellular space]
+Unreviewed EIKIBKLN_04075-MONOMER    Cu2+                     UNKNOWN   
+           copper transport protein ycnj
+           Cu2+[extracellular space]  ->  Cu2+[cytosol]
+Unreviewed EIKIBKLN_00882-MONOMER    succinate                SECONDARY 
+           succinate-acetate/proton symporter satp
+           Several possible reactions available for import
+Unreviewed EIKIBKLN_01085-MONOMER    4-aminobutanoate         SECONDARY 
+           gaba permease
+           4-aminobutanoate[extracellular space] + H+[extracellular space]  <-->  4-aminobutanoate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03127-MONOMER    hydrogen carbonate       UNKNOWN   
+           bicarbonate transporter bica
+           hydrogen carbonate[extracellular space]  ->  hydrogen carbonate[cytosol]
+Unreviewed EIKIBKLN_05455-MONOMER    3-phenylpropanoate       UNKNOWN   
+           putative 3-phenylpropionic acid transporter
+           3-phenylpropanoate[extracellular space]  ->  3-phenylpropanoate[cytosol]
+Unreviewed EIKIBKLN_03145-MONOMER    glutathione              ATP       
+           glutathione transport system permease protein gsic
+           ATP + glutathione[extracellular space] + H2O  ->  ADP + glutathione[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_04535-MONOMER    petrobactin              UNKNOWN   
+           apo-petrobactin exporter
+           petrobactin[cytosol]  ->  petrobactin[extracellular space]
+Unreviewed EIKIBKLN_01401-MONOMER    K+                       UNKNOWN   
+           ktr system potassium uptake protein a
+           K+[extracellular space]  <-->  K+[cytosol]
+Unreviewed EIKIBKLN_02799-MONOMER 1  glutathione              UNKNOWN   
+           glutathione-regulated potassium-efflux system protein kefc
+           glutathione[cytosol]  ->  glutathione[extracellular space]
+Unreviewed EIKIBKLN_02799-MONOMER 2  K+                       UNKNOWN   
+           glutathione-regulated potassium-efflux system protein kefc
+           K+[cytosol]  <-->  K+[extracellular space]
+Unreviewed EIKIBKLN_02990-MONOMER    riboflavin               ATP       
+           riboflavin transport system permease protein ribx
+           ATP + riboflavin[extracellular space] + H2O  ->  ADP + riboflavin[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_05024-MONOMER    Ca2+                     SECONDARY 
+           ca(2+)/h(+) antiporter chaa
+           Ca2+[extracellular space] + H+[cytosol]  ->  Ca2+[cytosol] + H+[extracellular space]
+Unreviewed EIKIBKLN_04970-MONOMER    L-arginine               SECONDARY 
+           arginine/ornithine antiporter
+           L-arginine[extracellular space] + ornithine[cytosol]  ->  L-arginine[cytosol] + ornithine[extracellular space]
+Unreviewed EIKIBKLN_00279-MONOMER    K+                       SECONDARY 
+           na(+), li(+), k(+)/h(+) antiporter
+           K+[extracellular space] + 2 H+[cytosol]  <-->  K+[cytosol] + 2 H+[extracellular space]
+Unreviewed EIKIBKLN_03648-MONOMER    sodium glutamate         SECONDARY 
+           proton/sodium-glutamate symport protein
+           sodium glutamate[extracellular space] + H+[extracellular space]  ->  sodium glutamate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03102-MONOMER    L-arginine               SECONDARY 
+           arginine/ornithine antiporter
+           L-arginine[extracellular space] + ornithine[cytosol]  ->  L-arginine[cytosol] + ornithine[extracellular space]
+Unreviewed EIKIBKLN_05847-MONOMER    D-glucose                UNKNOWN   
+           glucose uptake protein glcu
+           D-glucose[extracellular space]  <-  D-glucose[cytosol]
+Unreviewed EIKIBKLN_00371-MONOMER    autoinducer 2            SECONDARY 
+           autoinducer 2 import system permease protein lsrd
+           autoinducer 2[extracellular space] + H+[extracellular space]  ->  autoinducer 2[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_05616-MONOMER    guanidinium              UNKNOWN   
+           putative guanidinium efflux system subunit gdnd
+           guanidinium[cytosol]  ->  guanidinium[extracellular space]
+Unreviewed EIKIBKLN_01436-MONOMER    maltose                  ATP       
+           maltose/maltodextrin transport system permease protein malg
+           maltose[extracellular space] + ATP + H2O  ->  maltose[cytosol] + ADP + phosphate + H+
+Unreviewed EIKIBKLN_00738-MONOMER    L-serine                 UNKNOWN   
+           serine transporter
+           L-serine[extracellular space]  ->  L-serine[cytosol]
+Unreviewed EIKIBKLN_03009-MONOMER    D-ribose                 SECONDARY 
+           ribose import permease protein rbsc
+           D-ribose[extracellular space] + H+[extracellular space]  ->  D-ribose[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_02251-MONOMER    thiamine                 UNKNOWN   
+           thiamine transporter thit
+           thiamine[extracellular space]  ->  thiamine[cytosol]
+Unreviewed EIKIBKLN_01154-MONOMER    riboflavin               SECONDARY 
+           putative riboflavin import permease protein rfud
+           riboflavin[extracellular space] + H+[extracellular space]  ->  riboflavin[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_01663-MONOMER    guanidinium              UNKNOWN   
+           putative guanidinium efflux system subunit gdnc
+           guanidinium[cytosol]  ->  guanidinium[extracellular space]
+Unreviewed EIKIBKLN_01717-MONOMER    phosphate                UNKNOWN   
+           phosphate-specific transport system accessory protein phou
+           phosphate[extracellular space]  <-  phosphate[cytosol]
+Unreviewed EIKIBKLN_04287-MONOMER    nitrate                  UNKNOWN   
+           putative nitrate transporter nart
+           nitrate[extracellular space]  ->  nitrate[cytosol]
+Unreviewed EIKIBKLN_02511-MONOMER    fluoride                 UNKNOWN   
+           putative fluoride ion transporter crcb
+           fluoride[extracellular space]  <-->  fluoride[cytosol]
+Unreviewed EIKIBKLN_05255-MONOMER    a tripeptide             UNKNOWN   
+           di-/tripeptide transporter
+           a tripeptide[extracellular space]  ->  a tripeptide[cytosol]
+Unreviewed EIKIBKLN_03607-MONOMER    K+                       UNKNOWN   
+           ktr system potassium uptake protein b
+           K+[extracellular space]  <-->  K+[cytosol]
+Unreviewed EIKIBKLN_00524-MONOMER    Mg2+                     UNKNOWN   
+           magnesium transport protein cora
+           Mg2+[extracellular space]  ->  Mg2+[cytosol]
+Unreviewed EIKIBKLN_03816-MONOMER    acetate                  SECONDARY 
+           cation/acetate symporter actp
+           acetate[extracellular space]  ->  acetate[cytosol]
+Unreviewed EIKIBKLN_04838-MONOMER    K+                       UNKNOWN   
+           ktr system potassium uptake protein b
+           K+[extracellular space]  <-->  K+[cytosol]
+Unreviewed EIKIBKLN_05371-MONOMER    a dipeptide              ATP       
+           dipeptide transport system permease protein dppb
+           ATP + a dipeptide[extracellular space] + H2O  ->  ADP + a dipeptide[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_02529-MONOMER    petrobactin              SECONDARY 
+           petrobactin import system permease protein fatd
+           petrobactin[extracellular space] + H+[extracellular space]  ->  petrobactin[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_05209-MONOMER    sn-glycerol 3-phosphate  UNKNOWN   
+           glycerol-3-phosphate transporter
+           sn-glycerol 3-phosphate[extracellular space]  ->  sn-glycerol 3-phosphate[cytosol]
+Unreviewed EIKIBKLN_05151-MONOMER    phosphate                ATP       
+           phosphate transport system permease protein pstc
+           ATP + phosphate[extracellular space] + H2O  ->  ADP + phosphate[cytosol] + phosphate[cytosol] + H+
+Unreviewed EIKIBKLN_00891-MONOMER    (R)-pantothenate         SECONDARY 
+           sodium/pantothenate symporter
+           Na+[extracellular space] + (R)-pantothenate[extracellular space]  <-->  Na+[cytosol] + (R)-pantothenate[cytosol]
+Unreviewed EIKIBKLN_01858-MONOMER    Mn2+                     UNKNOWN   
+           manganese efflux system protein mnep
+           Several possible reactions available for import
+Unreviewed EIKIBKLN_02220-MONOMER    riboflavin               ATP       
+           riboflavin transport system permease protein ribx
+           ATP + riboflavin[extracellular space] + H2O  ->  ADP + riboflavin[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_05898-MONOMER 1  guanine                  SECONDARY 
+           guanine/hypoxanthine permease pbug
+           guanine[extracellular space] + H+[extracellular space]  ->  guanine[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_05898-MONOMER 2  hypoxanthine             SECONDARY 
+           guanine/hypoxanthine permease pbug
+           hypoxanthine[extracellular space] + H+[extracellular space]  <-  hypoxanthine[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_05370-MONOMER    an oligopeptide          ATP       
+           oligopeptide transport system permease protein oppc
+           an oligopeptide[extracellular space] + ATP + H2O  ->  an oligopeptide[cytosol] + ADP + phosphate + H+
+Unreviewed EIKIBKLN_04963-MONOMER    L-glutamine              ATP       
+           glutamine transport system permease protein glnp
+           ATP + L-glutamine[extracellular space] + H2O  ->  ADP + L-glutamine[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_01730-MONOMER    Zn2+                     UNKNOWN   
+           high-affinity zinc uptake system membrane protein znub
+           Zn2+[extracellular space]  ->  Zn2+[cytosol]
+Unreviewed EIKIBKLN_03264-MONOMER    glycerol                 SECONDARY 
+           glycerol uptake facilitator protein
+           glycerol[extracellular space] + H+[extracellular space]  ->  glycerol[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_02587-MONOMER    ATP                      UNKNOWN   
+           putative multidrug export atp-binding/permease protein
+           ATP[cytosol]  <-->  ATP[extracellular space]
+Unreviewed EIKIBKLN_02455-MONOMER    L-serine                 SECONDARY 
+           serine/threonine exchanger stet
+           L-serine[extracellular space] + L-threonine[cytosol]  ->  L-serine[cytosol] + L-threonine[extracellular space]
+Unreviewed EIKIBKLN_05015-MONOMER    Zn2+                     ATP       
+           zinc-transporting atpase
+           Zn2+[extracellular space] + ATP + H2O  ->  Zn2+[cytosol] + ADP + phosphate + H+
+Unreviewed EIKIBKLN_00415-MONOMER 1  L-proline                UNKNOWN   
+           proline/betaine transporter
+           L-proline[extracellular space]  ->  L-proline[cytosol]
+Unreviewed EIKIBKLN_00415-MONOMER 2  glycine betaine          UNKNOWN   
+           proline/betaine transporter
+           glycine betaine[extracellular space]  <-->  glycine betaine[cytosol]
+Unreviewed EIKIBKLN_04400-MONOMER    a dipeptide              ATP       
+           putative d,d-dipeptide transport system permease protein ddpc
+           ATP + a dipeptide[extracellular space] + H2O  ->  ADP + a dipeptide[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_01932-MONOMER    riboflavin               UNKNOWN   
+           riboflavin transporter ribz
+           riboflavin[extracellular space]  ->  riboflavin[cytosol]
+Unreviewed EIKIBKLN_01078-MONOMER    D-fructose               PTS       
+           pts system fructose-specific eiiabc component
+           Several possible reactions available for import
+Unreviewed EIKIBKLN_00372-MONOMER    autoinducer 2            SECONDARY 
+           autoinducer 2 import system permease protein lsrc
+           autoinducer 2[extracellular space] + H+[extracellular space]  ->  autoinducer 2[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03970-MONOMER    riboflavin               UNKNOWN   
+           riboflavin transporter rfnt
+           riboflavin[extracellular space]  ->  riboflavin[cytosol]
+Unreviewed EIKIBKLN_04021-MONOMER 1  homoserine lactone       UNKNOWN   
+           homoserine/homoserine lactone efflux protein
+           homoserine lactone[cytosol]  ->  homoserine lactone[extracellular space]
+Unreviewed EIKIBKLN_04021-MONOMER 2  L-homoserine             UNKNOWN   
+           homoserine/homoserine lactone efflux protein
+           L-homoserine[cytosol]  ->  L-homoserine[extracellular space]
+Unreviewed EIKIBKLN_03606-MONOMER    D-or-L-glutamate         SECONDARY 
+           proton/glutamate-aspartate symporter
+           D-or-L-glutamate[extracellular space] + H+[extracellular space]  ->  D-or-L-glutamate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03074-MONOMER    Na+                      SECONDARY 
+           na(+)/h(+)-k(+) antiporter gern
+           Na+[extracellular space] + 2 H+[cytosol]  <-->  Na+[cytosol] + 2 H+[extracellular space]
+Unreviewed EIKIBKLN_04190-MONOMER 1  Co2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Several possible reactions available for import
+Unreviewed EIKIBKLN_04190-MONOMER 2  Mg2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Mg2+[extracellular space]  ->  Mg2+[cytosol]
+Unreviewed EIKIBKLN_05258-MONOMER    glycolate                SECONDARY 
+           glycolate permease glca
+           glycolate[extracellular space] + H+[extracellular space]  <-->  glycolate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03819-MONOMER    Na+                      SECONDARY 
+           na(+)/h(+)-k(+) antiporter gern
+           Na+[extracellular space] + 2 H+[cytosol]  <-->  Na+[cytosol] + 2 H+[extracellular space]
+Unreviewed EIKIBKLN_05137-MONOMER    ATP                      UNKNOWN   
+           putative multidrug export atp-binding/permease protein
+           ATP[cytosol]  <-->  ATP[extracellular space]
+Unreviewed EIKIBKLN_04927-MONOMER    a nucleoside             SECONDARY 
+           nucleoside permease nupc
+           a nucleoside[extracellular space] + H+[extracellular space]  ->  a nucleoside[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_04415-MONOMER    L-arginine               SECONDARY 
+           arginine/ornithine antiporter
+           L-arginine[extracellular space] + ornithine[cytosol]  ->  L-arginine[cytosol] + ornithine[extracellular space]
+Unreviewed EIKIBKLN_00181-MONOMER    glycine betaine          ATP       
+           glycine betaine transport system permease protein opuab
+           glycine betaine[extracellular space] + ATP + H2O  ->  glycine betaine[cytosol] + ADP + phosphate + H+
+Unreviewed EIKIBKLN_02848-MONOMER 1  nicotinate               UNKNOWN   
+           putative niacin/nicotinamide transporter naip
+           nicotinate[extracellular space]  ->  nicotinate[cytosol]
+Unreviewed EIKIBKLN_02848-MONOMER 2  nicotinamide             UNKNOWN   
+           putative niacin/nicotinamide transporter naip
+           nicotinamide[extracellular space]  ->  nicotinamide[cytosol]
+Unreviewed EIKIBKLN_05848-MONOMER    Mo2+                     ATP       
+           molybdenum transport system permease protein modb
+           Mo2+[extracellular space] + ATP + H2O  ->  Mo2+[cytosol] + ADP + phosphate + H+
+Unreviewed EIKIBKLN_02181-MONOMER    K+                       SECONDARY 
+           na(+), li(+), k(+)/h(+) antiporter
+           K+[extracellular space] + 2 H+[cytosol]  <-->  K+[cytosol] + 2 H+[extracellular space]
+Unreviewed EIKIBKLN_00768-MONOMER 1  homoserine lactone       UNKNOWN   
+           homoserine/homoserine lactone efflux protein
+           homoserine lactone[cytosol]  ->  homoserine lactone[extracellular space]
+Unreviewed EIKIBKLN_00768-MONOMER 2  L-homoserine             UNKNOWN   
+           homoserine/homoserine lactone efflux protein
+           L-homoserine[cytosol]  ->  L-homoserine[extracellular space]
+Unreviewed EIKIBKLN_05685-MONOMER    lactose                  SECONDARY 
+           lactose permease
+           lactose[extracellular space] + H+[extracellular space]  ->  lactose[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03830-MONOMER    bacilysin                UNKNOWN   
+           putative bacilysin exporter bace
+           bacilysin[cytosol]  ->  bacilysin[extracellular space]
+Unreviewed EIKIBKLN_04443-MONOMER    Mn2+                     UNKNOWN   
+           manganese efflux system protein mnes
+           Several possible reactions available for import
+Unreviewed EIKIBKLN_04474-MONOMER 1  homoserine lactone       UNKNOWN   
+           homoserine/homoserine lactone efflux protein
+           homoserine lactone[cytosol]  ->  homoserine lactone[extracellular space]
+Unreviewed EIKIBKLN_04474-MONOMER 2  L-homoserine             UNKNOWN   
+           homoserine/homoserine lactone efflux protein
+           L-homoserine[cytosol]  ->  L-homoserine[extracellular space]
+Unreviewed EIKIBKLN_03521-MONOMER    K+                       UNKNOWN   
+           ktr system potassium uptake protein b
+           K+[extracellular space]  <-->  K+[cytosol]
+Unreviewed EIKIBKLN_02639-MONOMER    a nucleoside             SECONDARY 
+           putative nucleoside permease nupx
+           a nucleoside[extracellular space] + H+[extracellular space]  ->  a nucleoside[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_05301-MONOMER    lactose                  ATP       
+           lactose transport system permease protein lacg
+           lactose[extracellular space] + ATP + H2O  ->  lactose[cytosol] + ADP + phosphate + H+
+Unreviewed EIKIBKLN_05617-MONOMER    guanidinium              UNKNOWN   
+           putative guanidinium efflux system subunit gdnc
+           guanidinium[cytosol]  ->  guanidinium[extracellular space]
+Unreviewed EIKIBKLN_03175-MONOMER    2-oxoglutarate           SECONDARY 
+           alpha-ketoglutarate permease
+           2-oxoglutarate[extracellular space] + H+[extracellular space]  <-->  2-oxoglutarate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_04056-MONOMER    Mg2+                     UNKNOWN   
+           magnesium transporter mgte
+           Mg2+[extracellular space]  ->  Mg2+[cytosol]
+Unreviewed EIKIBKLN_02494-MONOMER    a nucleoside             SECONDARY 
+           nucleoside permease nupc
+           a nucleoside[extracellular space] + H+[extracellular space]  ->  a nucleoside[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_00580-MONOMER    riboflavin               UNKNOWN   
+           riboflavin transporter ribz
+           riboflavin[extracellular space]  ->  riboflavin[cytosol]
+Unreviewed EIKIBKLN_01309-MONOMER    uracil                   SECONDARY 
+           uracil permease
+           uracil[extracellular space] + H+[extracellular space]  <-->  uracil[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03098-MONOMER    K+                       SECONDARY 
+           na(+), li(+), k(+)/h(+) antiporter
+           K+[extracellular space] + 2 H+[cytosol]  <-->  K+[cytosol] + 2 H+[extracellular space]
+Unreviewed EIKIBKLN_05202-MONOMER    D-ribose                 SECONDARY 
+           ribose import permease protein rbsc
+           D-ribose[extracellular space] + H+[extracellular space]  ->  D-ribose[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_02853-MONOMER    urea                     CHANNEL   
+           acid-activated urea channel
+           urea[extracellular space]  <-->  urea[cytosol]
+Unreviewed EIKIBKLN_02621-MONOMER    D-or-L-glutamate         SECONDARY 
+           proton/glutamate-aspartate symporter
+           D-or-L-glutamate[extracellular space] + H+[extracellular space]  ->  D-or-L-glutamate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_02632-MONOMER    glycolate                SECONDARY 
+           glycolate permease glca
+           glycolate[extracellular space] + H+[extracellular space]  <-->  glycolate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03565-MONOMER    putrescine               UNKNOWN   
+           putrescine importer puup
+           putrescine[extracellular space]  ->  putrescine[cytosol]
+Unreviewed EIKIBKLN_03083-MONOMER 1  S-adenosyl-L-methionine  UNKNOWN   
+           s-adenosylmethionine/s-adenosylhomocysteine transporter
+           S-adenosyl-L-methionine[extracellular space]  ->  S-adenosyl-L-methionine[cytosol]
+Unreviewed EIKIBKLN_03083-MONOMER 2  S-adenosyl-L-homocysteine UNKNOWN   
+           s-adenosylmethionine/s-adenosylhomocysteine transporter
+           S-adenosyl-L-homocysteine[extracellular space]  ->  S-adenosyl-L-homocysteine[cytosol]
+Unreviewed EIKIBKLN_01021-MONOMER    phosphate                UNKNOWN   
+           phosphate-import protein phnd
+           phosphate[extracellular space]  <-  phosphate[cytosol]
+Unreviewed EIKIBKLN_01964-MONOMER    petrobactin              SECONDARY 
+           petrobactin import system permease protein fpub
+           petrobactin[extracellular space] + H+[extracellular space]  ->  petrobactin[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_01694-MONOMER    L-cystine                UNKNOWN   
+           l-cystine uptake protein tcyp
+           L-cystine[extracellular space]  ->  L-cystine[cytosol]
+Unreviewed EIKIBKLN_05237-MONOMER    trehalose                PTS       
+           pts system trehalose-specific eiibc component
+           trehalose[extracellular space] + an [HPr protein]-Npi-phospho-L-histidine  ->  D-trehalose 6-phosphate[cytosol] + an [HPr]-L-histidine
+Unreviewed EIKIBKLN_05108-MONOMER    N-acetyl-alpha-D-glucosamine PTS       
+           pts system n-acetylglucosamine-specific eiicb component
+           an [HPr protein]-Npi-phospho-L-histidine + N-acetyl-alpha-D-glucosamine[extracellular space]  ->  N-acetyl-alpha-D-glucosamine 6-phosphate[cytosol] + an [HPr]-L-histidine
+Unreviewed EIKIBKLN_05718-MONOMER    2-oxoglutarate           SECONDARY 
+           alpha-ketoglutarate permease
+           2-oxoglutarate[extracellular space] + H+[extracellular space]  <-->  2-oxoglutarate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_05302-MONOMER    sn-glycerol 3-phosphate  ATP       
+           sn-glycerol-3-phosphate transport system permease protein ugpa
+           ATP + sn-glycerol 3-phosphate[extracellular space] + H2O  ->  ADP + sn-glycerol 3-phosphate[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_03697-MONOMER    riboflavin               UNKNOWN   
+           riboflavin transporter fmnp
+           riboflavin[extracellular space]  ->  riboflavin[cytosol]
+Unreviewed EIKIBKLN_02512-MONOMER    fluoride                 UNKNOWN   
+           putative fluoride ion transporter crcb
+           fluoride[extracellular space]  <-->  fluoride[cytosol]
+Unreviewed EIKIBKLN_03146-MONOMER    a dipeptide              ATP       
+           dipeptide transport system permease protein dppc
+           ATP + a dipeptide[extracellular space] + H2O  ->  ADP + a dipeptide[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_04175-MONOMER    Zn2+                     UNKNOWN   
+           high-affinity zinc uptake system binding-protein znua
+           Zn2+[extracellular space]  ->  Zn2+[cytosol]
+Unreviewed EIKIBKLN_03400-MONOMER 1  FMN                      UNKNOWN   
+           putative fmn/fad exporter yeeo
+           FMN[cytosol]  ->  FMN[extracellular space]
+Unreviewed EIKIBKLN_03400-MONOMER 2  FAD                      UNKNOWN   
+           putative fmn/fad exporter yeeo
+           FAD[cytosol]  ->  FAD[extracellular space]
+Unreviewed EIKIBKLN_01514-MONOMER 1  Co2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Several possible reactions available for import
+Unreviewed EIKIBKLN_01514-MONOMER 2  Mg2+                     UNKNOWN   
+           cobalt/magnesium transport protein cora
+           Mg2+[extracellular space]  ->  Mg2+[cytosol]
+Unreviewed EIKIBKLN_02729-MONOMER    D-glucose                PTS       
+           pts system glucose-specific eiia component
+           an [HPr protein]-Npi-phospho-L-histidine + D-glucose[extracellular space]  ->  D-glucose 6-phosphate[cytosol] + an [HPr]-L-histidine
+Unreviewed EIKIBKLN_01019-MONOMER    phosphate                SECONDARY 
+           phosphate-import permease protein phne
+           phosphate[extracellular space] + H+[extracellular space]  <-->  phosphate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_04907-MONOMER    L-methionine             SECONDARY 
+           methionine import system permease protein metp
+           L-methionine[extracellular space] + H+[extracellular space]  ->  L-methionine[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_01018-MONOMER    phosphate                SECONDARY 
+           phosphate-import permease protein phne
+           phosphate[extracellular space] + H+[extracellular space]  <-->  phosphate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_02495-MONOMER    a nucleoside             SECONDARY 
+           nucleoside permease nupc
+           a nucleoside[extracellular space] + H+[extracellular space]  ->  a nucleoside[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_02849-MONOMER    glycine betaine          UNKNOWN   
+           glycine betaine transporter 2
+           glycine betaine[extracellular space]  <-->  glycine betaine[cytosol]
+Unreviewed EIKIBKLN_02033-MONOMER    Na+                      SECONDARY 
+           sodium-lithium/proton antiporter
+           Na+[extracellular space] + 2 H+[cytosol]  <-->  Na+[cytosol] + 2 H+[extracellular space]
+Unreviewed EIKIBKLN_05201-MONOMER    D-ribose                 UNKNOWN   
+           ribose import binding protein rbsb
+           D-ribose[extracellular space]  ->  D-ribose[cytosol]
+Unreviewed EIKIBKLN_03998-MONOMER    staphyloferrin B         UNKNOWN   
+           staphyloferrin b transporter
+           staphyloferrin B[extracellular space]  ->  staphyloferrin B[cytosol]
+Unreviewed EIKIBKLN_04026-MONOMER    a nucleoside             SECONDARY 
+           nucleoside permease nupc
+           a nucleoside[extracellular space] + H+[extracellular space]  ->  a nucleoside[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_04739-MONOMER    lactose                  SECONDARY 
+           lactose permease
+           lactose[extracellular space] + H+[extracellular space]  ->  lactose[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_02824-MONOMER 1  nicotinate               UNKNOWN   
+           putative niacin/nicotinamide transporter naip
+           nicotinate[extracellular space]  ->  nicotinate[cytosol]
+Unreviewed EIKIBKLN_02824-MONOMER 2  nicotinamide             UNKNOWN   
+           putative niacin/nicotinamide transporter naip
+           nicotinamide[extracellular space]  ->  nicotinamide[cytosol]
+Unreviewed EIKIBKLN_03453-MONOMER    (S)-lactate              SECONDARY 
+           l-lactate permease
+           (S)-lactate[extracellular space] + H+[extracellular space]  <-->  (S)-lactate[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03012-MONOMER 1  guanine                  SECONDARY 
+           guanine/hypoxanthine permease pbuo
+           guanine[extracellular space] + H+[extracellular space]  ->  guanine[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03012-MONOMER 2  hypoxanthine             SECONDARY 
+           guanine/hypoxanthine permease pbuo
+           hypoxanthine[extracellular space] + H+[extracellular space]  <-  hypoxanthine[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_03090-MONOMER    guanidinium              UNKNOWN   
+           putative guanidinium efflux system subunit gdnd
+           guanidinium[cytosol]  ->  guanidinium[extracellular space]
+Unreviewed EIKIBKLN_04046-MONOMER    L-serine                 UNKNOWN   
+           serine transporter
+           L-serine[extracellular space]  ->  L-serine[cytosol]
+Unreviewed EIKIBKLN_01664-MONOMER    guanidinium              UNKNOWN   
+           putative guanidinium efflux system subunit gdnd
+           guanidinium[cytosol]  ->  guanidinium[extracellular space]
+Unreviewed EIKIBKLN_03444-MONOMER    L-proline                UNKNOWN   
+           high-affinity proline transporter putp
+           L-proline[extracellular space]  ->  L-proline[cytosol]
+Unreviewed EIKIBKLN_05357-MONOMER    K+                       SECONDARY 
+           na(+), li(+), k(+)/h(+) antiporter
+           K+[extracellular space] + 2 H+[cytosol]  <-->  K+[cytosol] + 2 H+[extracellular space]
+Unreviewed EIKIBKLN_02424-MONOMER    L-methionine             SECONDARY 
+           methionine import system permease protein metp
+           L-methionine[extracellular space] + H+[extracellular space]  ->  L-methionine[cytosol] + H+[cytosol]
+Unreviewed EIKIBKLN_05177-MONOMER    a tripeptide             UNKNOWN   
+           di-/tripeptide transporter
+           a tripeptide[extracellular space]  ->  a tripeptide[cytosol]
+Unreviewed EIKIBKLN_04142-MONOMER    L-arginine               UNKNOWN   
+           arginine exporter protein argo
+           L-arginine[cytosol]  <-  L-arginine[extracellular space]
+Unreviewed EIKIBKLN_05291-MONOMER    citrate                  UNKNOWN   
+           citrate/malate transporter
+           citrate[extracellular space]  ->  citrate[cytosol]
+Unreviewed EIKIBKLN_04058-MONOMER    Mn2+                     UNKNOWN   
+           manganese efflux system protein mnep
+           Several possible reactions available for import
+Unreviewed EIKIBKLN_04510-MONOMER    Zn2+                     UNKNOWN   
+           zinc transporter zupt
+           Zn2+[extracellular space]  ->  Zn2+[cytosol]
+Unreviewed EIKIBKLN_03044-MONOMER    staphylopine             UNKNOWN   
+           staphylopine export protein
+           staphylopine[cytosol]  ->  staphylopine[extracellular space]
+Unreviewed EIKIBKLN_00951-MONOMER    ATP                      UNKNOWN   
+           multidrug efflux atp-binding/permease protein
+           ATP[cytosol]  <-->  ATP[extracellular space]
+Unreviewed EIKIBKLN_00958-MONOMER    K+                       SECONDARY 
+           na(+), li(+), k(+)/h(+) antiporter
+           K+[extracellular space] + 2 H+[cytosol]  <-->  K+[cytosol] + 2 H+[extracellular space]
+Unreviewed EIKIBKLN_01582-MONOMER    L-arginine               ATP       
+           arginine transport system permease protein artq
+           ATP + L-arginine[extracellular space] + H2O  ->  ADP + L-arginine[cytosol] + phosphate + H+
+Unreviewed EIKIBKLN_02610-MONOMER    chromate                 UNKNOWN   
+           chromate transport protein
+           chromate[extracellular space]  ->  chromate[cytosol]
+Unreviewed EIKIBKLN_04141-MONOMER    bacillibactin            UNKNOWN   
+           bacillibactin exporter
+           bacillibactin[cytosol]  ->  bacillibactin[extracellular space]
+Unreviewed EIKIBKLN_02734-MONOMER    Mn2+                     UNKNOWN   
+           putative manganese efflux pump mntp
+           Several possible reactions available for import
+Unreviewed EIKIBKLN_02643-MONOMER    glycine betaine          UNKNOWN   
+           glycine betaine transporter opud
+           glycine betaine[extracellular space]  <-->  glycine betaine[cytosol]
+Unreviewed EIKIBKLN_04466-MONOMER    staphylopine             UNKNOWN   
+           staphylopine export protein
+           staphylopine[cytosol]  ->  staphylopine[extracellular space]
+
+
+Unreviewed EIKIBKLN_00090-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00142-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00314-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00342-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00387-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00393-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00451-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00560-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00588-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00609-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00631-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00636-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00640-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00719-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00773-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00797-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00799-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00811-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00815-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00816-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00916-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_00927-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01013-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01014-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01099-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01100-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01101-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01479-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01513-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01815-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01836-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01882-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01883-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01982-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01983-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_01987-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02005-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02186-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02260-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02266-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02277-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02278-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02280-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02353-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02380-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02454-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02502-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02536-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02614-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02619-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02655-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02657-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02658-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02777-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02787-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02788-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02812-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02822-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_02885-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03049-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03053-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03055-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03059-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03073-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03078-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03105-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03106-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03190-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03200-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03211-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03499-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03657-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03784-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03821-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03916-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03920-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03927-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_03946-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04012-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04048-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04073-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04077-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04092-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04101-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04110-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04152-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04191-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04192-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04202-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04219-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04484-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04491-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04506-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04580-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04612-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04632-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04674-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04731-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04844-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04846-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04850-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04903-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04937-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04945-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04946-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04976-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_04983-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05102-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05159-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05163-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05173-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05176-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05222-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05252-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05253-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05275-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05288-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05358-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05431-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05461-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05487-MONOMER  (no substrate identified)
+Unreviewed EIKIBKLN_05907-MONOMER  (no substrate identified)
