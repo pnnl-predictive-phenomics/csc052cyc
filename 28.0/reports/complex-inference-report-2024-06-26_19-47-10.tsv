@@ -1,0 +1,409 @@
+##	Complex Inference Report: The results of computationally predicting protein complexes.
+##	
+##	For CSC052 version 27.5  'Bacillus <firmicutes> strain'  on Wed Jun 26, 2024
+##	
+##	
+##	
+####	Summary Statistics
+##	
+CPLX-COUNT-TOTAL-INF	Total count of complexes inferred and newly created	66
+CPLX-COUNT-RXN-BASED	Complexes inferred, created by SHARED REACTIONS	10
+CPLX-COUNT-HYBRID	Complexes created by SHARED REACTIONS and augmented by NAME STRING ANALYSIS	37
+CPLX-COUNT-NAME-BASED	Complexes inferred, created by NAME STRING ANALYSIS	7
+CPLX-COUNT-ABC	Complexes created by ABC TRANSPORTER ANALYSIS	12
+CPLX-COUNT-PRE-EXISTING	Complexes that pre-existed in the PGDB	3
+PP-COUNT-OF-INF-CPLXS	Total count of polypeptides (monomers) in the inferred complexes	143
+PP-LONELY	Polypeptides containing subunit-related words, but with no matching sibling subunits	37
+PP-NOT-RECOGNIZED	Unique polypeptides, NOT recognized as subunit candidates	5584
+PP-INPUT-COUNT	Polypeptide count of the input to complex-inference	5842
+##	
+####	Complexes created, inferred by SHARED REACTIONS
+##	
+##	This first mechanism for inference of protein complexes focuses on multiple polypeptides that
+##	catalyze a common reaction.  A complex is inferred for each set of subunits that catalyze the
+##	same reaction(s), contain subunit-related words in their names, and whose genes are near one
+##	another in the genome. After the complex inference, the reactions are marked as catalyzed
+##	by the complexes instead of by the polypeptides.
+##	
+CPLX-BY-SHARED-RXNS	ATP-dependent helicase/	CPLX8NTX77-30
+SUBUNIT-OF-CPLX	ATP-dependent helicase/deoxyribonuclease subunit B	EIKIBKLN_03343-MONOMER
+SUBUNIT-OF-CPLX	ATP-dependent helicase/nuclease subunit A	EIKIBKLN_03344-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Aminodeoxychorismate/anthranilate synthase	CPLX8NTX77-34
+SUBUNIT-OF-CPLX	Aminodeoxychorismate/anthranilate synthase component 2	EIKIBKLN_03446-MONOMER
+SUBUNIT-OF-CPLX	Anthranilate synthase component 1	EIKIBKLN_03445-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Aminodeoxychorismate/anthranilate synthase	CPLX8NTX77-6
+SUBUNIT-OF-CPLX	Aminodeoxychorismate synthase component 1	EIKIBKLN_02969-MONOMER
+SUBUNIT-OF-CPLX	Aminodeoxychorismate/anthranilate synthase component 2	EIKIBKLN_02970-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Cytochrome b6-f complex	CPLX8NTX77-46
+SUBUNIT-OF-CPLX	Cytochrome b6-f complex iron-sulfur subunit	EIKIBKLN_03738-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome b6-f complex subunit 4	EIKIBKLN_03740-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Electron transfer flavoprotein	CPLX8NTX77-29
+SUBUNIT-OF-CPLX	Electron transfer flavoprotein subunit alpha	EIKIBKLN_01957-MONOMER
+SUBUNIT-OF-CPLX	Electron transfer flavoprotein subunit beta	EIKIBKLN_01958-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Long-chain-fatty-acid--CoA ligase	CPLX8NTX77-10
+SUBUNIT-OF-CPLX	Long-chain-fatty-acid--CoA ligase	EIKIBKLN_05863-MONOMER
+SUBUNIT-OF-CPLX	Long-chain-fatty-acid--CoA ligase	EIKIBKLN_05865-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Molybdopterin synthase	CPLX8NTX77-28
+SUBUNIT-OF-CPLX	Molybdopterin synthase catalytic subunit	EIKIBKLN_04285-MONOMER
+SUBUNIT-OF-CPLX	Molybdopterin synthase sulfur carrier subunit	EIKIBKLN_04286-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Molybdopterin synthase	CPLX8NTX77-27
+SUBUNIT-OF-CPLX	Molybdopterin synthase catalytic subunit	EIKIBKLN_02161-MONOMER
+SUBUNIT-OF-CPLX	Molybdopterin synthase sulfur carrier subunit	EIKIBKLN_02160-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Molybdopterin synthase	CPLX8NTX77-26
+SUBUNIT-OF-CPLX	Molybdopterin synthase catalytic subunit	EIKIBKLN_00904-MONOMER
+SUBUNIT-OF-CPLX	Molybdopterin synthase sulfur carrier subunit	EIKIBKLN_00903-MONOMER
+##	
+CPLX-BY-SHARED-RXNS	Respiratory nitrate reductase	CPLX8NTX77-15
+SUBUNIT-OF-CPLX	Respiratory nitrate reductase 1 alpha chain	EIKIBKLN_04277-MONOMER
+SUBUNIT-OF-CPLX	Respiratory nitrate reductase 2 beta chain	EIKIBKLN_04278-MONOMER
+##	
+##	
+####	Complexes created by SHARED REACTIONS and augmented by NAME STRING ANALYSIS
+##	
+##	After complexes were created by shared reactions, sometimes the inference
+##	by name analysis may also find matches with one of the previously created complexes,
+##	given that all polypeptide name strings are analyzed, even of those polypeptides that are
+##	already in a complex.  In such a match, additional polypeptides will be added to the complex
+##	that was based merely on shared reactions, instead of creating a separate but partial complex.
+##	
+CPLX-HYBRID	2-oxoisovalerate dehydrogenase	CPLX8NTX77-11
+SUBUNIT-OF-CPLX	2-oxoisovalerate dehydrogenase subunit alpha	EIKIBKLN_01591-MONOMER
+SUBUNIT-OF-CPLX	2-oxoisovalerate dehydrogenase subunit beta	EIKIBKLN_01590-MONOMER
+##	
+CPLX-HYBRID	3-isopropylmalate dehydratase	CPLX8NTX77-38
+SUBUNIT-OF-CPLX	3-isopropylmalate dehydratase large subunit	EIKIBKLN_03619-MONOMER
+SUBUNIT-OF-CPLX	3-isopropylmalate dehydratase small subunit	EIKIBKLN_03620-MONOMER
+##	
+CPLX-HYBRID	5-oxoprolinase	CPLX8NTX77-19
+SUBUNIT-OF-CPLX	5-oxoprolinase subunit A	EIKIBKLN_00479-MONOMER
+SUBUNIT-OF-CPLX	5-oxoprolinase subunit B	EIKIBKLN_00481-MONOMER
+SUBUNIT-OF-CPLX	5-oxoprolinase subunit C	EIKIBKLN_00480-MONOMER
+##	
+CPLX-HYBRID	ATP synthase	CPLX8NTX77-13
+SUBUNIT-OF-CPLX	ATP synthase epsilon chain	EIKIBKLN_02714-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase gamma chain	EIKIBKLN_02716-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit a	EIKIBKLN_02721-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit alpha	EIKIBKLN_02717-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit b	EIKIBKLN_02719-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit beta	EIKIBKLN_02715-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit c	EIKIBKLN_02720-MONOMER
+SUBUNIT-OF-CPLX	ATP synthase subunit delta	EIKIBKLN_02718-MONOMER
+##	
+CPLX-HYBRID	Acetoin:2,6-dichlorophenolindophenol oxidoreductase	CPLX8NTX77-37
+SUBUNIT-OF-CPLX	Acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit alpha	EIKIBKLN_00173-MONOMER
+SUBUNIT-OF-CPLX	Acetoin:2,6-dichlorophenolindophenol oxidoreductase subunit beta	EIKIBKLN_00172-MONOMER
+##	
+CPLX-HYBRID	Acetolactate synthase	CPLX8NTX77-48
+SUBUNIT-OF-CPLX	Acetolactate synthase large subunit	EIKIBKLN_03990-MONOMER
+SUBUNIT-OF-CPLX	Acetolactate synthase small subunit	EIKIBKLN_03991-MONOMER
+##	
+CPLX-HYBRID	Acetolactate synthase	CPLX8NTX77-47
+SUBUNIT-OF-CPLX	Acetolactate synthase large subunit	EIKIBKLN_03614-MONOMER
+SUBUNIT-OF-CPLX	Acetolactate synthase small subunit	EIKIBKLN_03615-MONOMER
+##	
+CPLX-HYBRID	Acetyl-coenzyme A carboxylase carboxyl transferase	CPLX8NTX77-36
+SUBUNIT-OF-CPLX	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha	EIKIBKLN_02037-MONOMER
+SUBUNIT-OF-CPLX	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta	EIKIBKLN_02038-MONOMER
+##	
+CPLX-HYBRID	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase	CPLX8NTX77-32
+SUBUNIT-OF-CPLX	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B	EIKIBKLN_04916-MONOMER
+SUBUNIT-OF-CPLX	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit C	EIKIBKLN_04914-MONOMER
+SUBUNIT-OF-CPLX	Glutamyl-tRNA(Gln) amidotransferase subunit A	EIKIBKLN_04915-MONOMER
+##	
+CPLX-HYBRID	Carbamoyl-phosphate synthase	CPLX8NTX77-16
+SUBUNIT-OF-CPLX	Carbamoyl-phosphate synthase large chain	EIKIBKLN_01305-MONOMER
+SUBUNIT-OF-CPLX	Carbamoyl-phosphate synthase small chain	EIKIBKLN_01306-MONOMER
+##	
+CPLX-HYBRID	Cytochrome b6-f complex	CPLX8NTX77-25
+SUBUNIT-OF-CPLX	Cytochrome b6-f complex iron-sulfur subunit	EIKIBKLN_03738-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome b6-f complex subunit 4	EIKIBKLN_03740-MONOMER
+SUBUNIT-OF-CPLX	Menaquinol-cytochrome c reductase cytochrome b subunit	EIKIBKLN_03739-MONOMER
+##	
+CPLX-HYBRID	Cytochrome bd-I ubiquinol oxidase	CPLX8NTX77-23
+SUBUNIT-OF-CPLX	Cytochrome bd-I ubiquinol oxidase subunit 1	EIKIBKLN_04098-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome bd-I ubiquinol oxidase subunit 2	EIKIBKLN_04099-MONOMER
+##	
+CPLX-HYBRID	Cytochrome bd-I ubiquinol oxidase	CPLX8NTX77-22
+SUBUNIT-OF-CPLX	Cytochrome bd-I ubiquinol oxidase subunit 1	EIKIBKLN_02237-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome bd-I ubiquinol oxidase subunit 2	EIKIBKLN_02238-MONOMER
+##	
+CPLX-HYBRID	Cytochrome c oxidase	CPLX8NTX77-24
+SUBUNIT-OF-CPLX	Cytochrome c oxidase subunit 1	EIKIBKLN_01362-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c oxidase subunit 2	EIKIBKLN_01363-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c oxidase subunit 3	EIKIBKLN_01361-MONOMER
+SUBUNIT-OF-CPLX	Cytochrome c oxidase subunit 4B	EIKIBKLN_01360-MONOMER
+##	
+CPLX-HYBRID	DNA gyrase	CPLX8NTX77-18
+SUBUNIT-OF-CPLX	DNA gyrase subunit A	EIKIBKLN_02902-MONOMER
+SUBUNIT-OF-CPLX	DNA gyrase subunit B	EIKIBKLN_02901-MONOMER
+##	
+CPLX-HYBRID	DNA topoisomerase 4	CPLX8NTX77-17
+SUBUNIT-OF-CPLX	DNA topoisomerase 4 subunit A	EIKIBKLN_00935-MONOMER
+SUBUNIT-OF-CPLX	DNA topoisomerase 4 subunit B	EIKIBKLN_00936-MONOMER
+##	
+CPLX-HYBRID	DNA-directed RNA polymerase	CPLX8NTX77-50
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit alpha	EIKIBKLN_05799-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit beta	EIKIBKLN_05764-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit beta'	EIKIBKLN_05765-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit delta	EIKIBKLN_02750-MONOMER
+SUBUNIT-OF-CPLX	DNA-directed RNA polymerase subunit omega	EIKIBKLN_01288-MONOMER
+##	
+CPLX-HYBRID	Dipicolinate synthase	CPLX8NTX77-42
+SUBUNIT-OF-CPLX	Dipicolinate synthase subunit A	EIKIBKLN_01221-MONOMER
+SUBUNIT-OF-CPLX	Dipicolinate synthase subunit B	EIKIBKLN_01220-MONOMER
+##	
+CPLX-HYBRID	Exodeoxyribonuclease 7	CPLX8NTX77-39
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease 7 large subunit	EIKIBKLN_01628-MONOMER
+SUBUNIT-OF-CPLX	Exodeoxyribonuclease 7 small subunit	EIKIBKLN_01627-MONOMER
+##	
+CPLX-HYBRID	Fumarate reductase	CPLX8NTX77-8
+SUBUNIT-OF-CPLX	Fumarate reductase flavoprotein subunit	EIKIBKLN_01952-MONOMER
+SUBUNIT-OF-CPLX	Fumarate reductase iron-sulfur subunit	EIKIBKLN_01951-MONOMER
+##	
+CPLX-HYBRID	Hydrogen cyanide synthase	CPLX8NTX77-43
+SUBUNIT-OF-CPLX	Hydrogen cyanide synthase subunit HcnB	EIKIBKLN_00235-MONOMER
+SUBUNIT-OF-CPLX	Hydrogen cyanide synthase subunit HcnC	EIKIBKLN_00231-MONOMER
+##	
+CPLX-HYBRID	Imidazole glycerol phosphate synthase	CPLX8NTX77-35
+SUBUNIT-OF-CPLX	Imidazole glycerol phosphate synthase subunit HisF	EIKIBKLN_03627-MONOMER
+SUBUNIT-OF-CPLX	Imidazole glycerol phosphate synthase subunit HisH	EIKIBKLN_03625-MONOMER
+##	
+CPLX-HYBRID	K(+)/H(+) antiporter	CPLX8NTX77-41
+SUBUNIT-OF-CPLX	K(+)/H(+) antiporter subunit KhtT	EIKIBKLN_02484-MONOMER
+SUBUNIT-OF-CPLX	K(+)/H(+) antiporter subunit KhtU	EIKIBKLN_02483-MONOMER
+##	
+CPLX-HYBRID	K(+)/H(+) antiporter	CPLX8NTX77-40
+SUBUNIT-OF-CPLX	K(+)/H(+) antiporter subunit KhtT	EIKIBKLN_02183-MONOMER
+SUBUNIT-OF-CPLX	K(+)/H(+) antiporter subunit KhtU	EIKIBKLN_02182-MONOMER
+##	
+CPLX-HYBRID	L-serine dehydratase	CPLX8NTX77-21
+SUBUNIT-OF-CPLX	L-serine dehydratase, alpha chain	EIKIBKLN_01568-MONOMER
+SUBUNIT-OF-CPLX	L-serine dehydratase, beta chain	EIKIBKLN_01569-MONOMER
+##	
+CPLX-HYBRID	NADH-quinone oxidoreductase	CPLX8NTX77-49
+SUBUNIT-OF-CPLX	NADH-quinone oxidoreductase subunit 6	EIKIBKLN_02709-MONOMER
+SUBUNIT-OF-CPLX	NADH-quinone oxidoreductase subunit H	EIKIBKLN_02706-MONOMER
+SUBUNIT-OF-CPLX	NADH-quinone oxidoreductase subunit I	EIKIBKLN_02705-MONOMER
+SUBUNIT-OF-CPLX	NADH-quinone oxidoreductase subunit J	EIKIBKLN_02704-MONOMER
+SUBUNIT-OF-CPLX	NADH-quinone oxidoreductase subunit K	EIKIBKLN_02703-MONOMER
+SUBUNIT-OF-CPLX	NADH-quinone oxidoreductase subunit L	EIKIBKLN_02702-MONOMER
+##	
+CPLX-HYBRID	Phenylalanine--tRNA ligase	CPLX8NTX77-31
+SUBUNIT-OF-CPLX	Phenylalanine--tRNA ligase alpha subunit	EIKIBKLN_01999-MONOMER
+SUBUNIT-OF-CPLX	Phenylalanine--tRNA ligase beta subunit	EIKIBKLN_01998-MONOMER
+##	
+CPLX-HYBRID	Phosphoribosylformylglycinamidine synthase	CPLX8NTX77-20
+SUBUNIT-OF-CPLX	Phosphoribosylformylglycinamidine synthase subunit PurL	EIKIBKLN_04890-MONOMER
+SUBUNIT-OF-CPLX	Phosphoribosylformylglycinamidine synthase subunit PurQ	EIKIBKLN_04889-MONOMER
+SUBUNIT-OF-CPLX	Phosphoribosylformylglycinamidine synthase subunit PurS	EIKIBKLN_04888-MONOMER
+##	
+CPLX-HYBRID	Pyridoxal 5'-phosphate synthase	CPLX8NTX77-33
+SUBUNIT-OF-CPLX	Pyridoxal 5'-phosphate synthase subunit PdxS	EIKIBKLN_02909-MONOMER
+SUBUNIT-OF-CPLX	Pyridoxal 5'-phosphate synthase subunit PdxT	EIKIBKLN_02910-MONOMER
+##	
+CPLX-HYBRID	Pyruvate dehydrogenase E1	CPLX8NTX77-44
+SUBUNIT-OF-CPLX	Pyruvate dehydrogenase E1 component subunit alpha	EIKIBKLN_01395-MONOMER
+SUBUNIT-OF-CPLX	Pyruvate dehydrogenase E1 component subunit beta	EIKIBKLN_01394-MONOMER
+##	
+CPLX-HYBRID	Ribonucleoside-diphosphate reductase	CPLX8NTX77-14
+SUBUNIT-OF-CPLX	Ribonucleoside-diphosphate reductase subunit alpha	EIKIBKLN_03562-MONOMER
+SUBUNIT-OF-CPLX	Ribonucleoside-diphosphate reductase subunit alpha	EIKIBKLN_03563-MONOMER
+SUBUNIT-OF-CPLX	Ribonucleoside-diphosphate reductase subunit beta	EIKIBKLN_03564-MONOMER
+##	
+CPLX-HYBRID	Succinate--CoA ligase [ADP-forming]	CPLX8NTX77-9
+SUBUNIT-OF-CPLX	Succinate--CoA ligase [ADP-forming] subunit alpha	EIKIBKLN_01253-MONOMER
+SUBUNIT-OF-CPLX	Succinate--CoA ligase [ADP-forming] subunit beta	EIKIBKLN_01254-MONOMER
+##	
+CPLX-HYBRID	Tryptophan synthase	CPLX8NTX77-7
+SUBUNIT-OF-CPLX	Tryptophan synthase alpha chain	EIKIBKLN_03451-MONOMER
+SUBUNIT-OF-CPLX	Tryptophan synthase beta chain	EIKIBKLN_03450-MONOMER
+##	
+CPLX-HYBRID	cytochrome bd menaquinol oxidase	CPLX8NTX77-45
+SUBUNIT-OF-CPLX	Putative cytochrome bd menaquinol oxidase subunit I	EIKIBKLN_02628-MONOMER
+SUBUNIT-OF-CPLX	Putative cytochrome bd menaquinol oxidase subunit II	EIKIBKLN_02629-MONOMER
+##	
+CPLX-HYBRID	glycine dehydrogenase (decarboxylating)	CPLX8NTX77-12
+SUBUNIT-OF-CPLX	putative glycine dehydrogenase (decarboxylating) subunit 1	EIKIBKLN_01675-MONOMER
+SUBUNIT-OF-CPLX	putative glycine dehydrogenase (decarboxylating) subunit 2	EIKIBKLN_01674-MONOMER
+##	
+CPLX-HYBRID	guanidinium efflux system	CPLX8NTX77-5
+SUBUNIT-OF-CPLX	putative guanidinium efflux system subunit GdnC	EIKIBKLN_05617-MONOMER
+SUBUNIT-OF-CPLX	putative guanidinium efflux system subunit GdnD	EIKIBKLN_05616-MONOMER
+##	
+CPLX-HYBRID	guanidinium efflux system	CPLX8NTX77-4
+SUBUNIT-OF-CPLX	putative guanidinium efflux system subunit GdnC	EIKIBKLN_01663-MONOMER
+SUBUNIT-OF-CPLX	putative guanidinium efflux system subunit GdnD	EIKIBKLN_01664-MONOMER
+##	
+##	
+####	Complexes created, inferred by NAME STRING ANALYSIS
+##	
+##	This third mechanism for inference of protein complexes analyzes shared subunit-related
+##	words in the names of several polypeptides. First, polypeptides are grouped together by
+##	shared 'core strings.' A core string aims to capture the core function of a polypeptide
+##	and is derived from a polypeptide name by removing subunit-related words and other
+##	extraneous markup (for example, the core string for 'tryptophan synthase, subunit alpha'
+##	is simply 'tryptophan synthase'). Next, a complex is created for each such a polypeptide
+##	grouping unless all polypeptides have identical names.
+##	
+CPLX-BY-CORE-STRINGS	ATP-dependent protease	CPLX8NTX77-70
+SUBUNIT-OF-CPLX	ATP-dependent protease ATPase subunit ClpY	EIKIBKLN_01247-MONOMER
+SUBUNIT-OF-CPLX	ATP-dependent protease subunit HslV	EIKIBKLN_01248-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Dihydroorotate dehydrogenase B (NAD(+))	CPLX8NTX77-71
+SUBUNIT-OF-CPLX	Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit	EIKIBKLN_01303-MONOMER
+SUBUNIT-OF-CPLX	Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit	EIKIBKLN_01304-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Linear gramicidin synthase	CPLX8NTX77-69
+SUBUNIT-OF-CPLX	Linear gramicidin synthase subunit B	EIKIBKLN_04618-MONOMER
+SUBUNIT-OF-CPLX	Linear gramicidin synthase subunit D	EIKIBKLN_04619-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	NAD(P)H-quinone oxidoreductase	CPLX8NTX77-68
+SUBUNIT-OF-CPLX	NAD(P)H-quinone oxidoreductase subunit 2	EIKIBKLN_02700-MONOMER
+SUBUNIT-OF-CPLX	NAD(P)H-quinone oxidoreductase subunit 3	EIKIBKLN_02710-MONOMER
+SUBUNIT-OF-CPLX	NAD(P)H-quinone oxidoreductase subunit H	EIKIBKLN_02707-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Quinol oxidase	CPLX8NTX77-67
+SUBUNIT-OF-CPLX	Quinol oxidase subunit 1	EIKIBKLN_05165-MONOMER
+SUBUNIT-OF-CPLX	Quinol oxidase subunit 2	EIKIBKLN_05164-MONOMER
+SUBUNIT-OF-CPLX	Quinol oxidase subunit 3	EIKIBKLN_05166-MONOMER
+SUBUNIT-OF-CPLX	Quinol oxidase subunit 4	EIKIBKLN_05167-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Ribosomal RNA large subunit methyltransferase	CPLX8NTX77-65
+SUBUNIT-OF-CPLX	Ribosomal RNA large subunit methyltransferase H	EIKIBKLN_02863-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA large subunit methyltransferase I	EIKIBKLN_01978-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA large subunit methyltransferase K/L	EIKIBKLN_03776-MONOMER
+##	
+CPLX-BY-CORE-STRINGS	Ribosomal RNA small subunit methyltransferase	CPLX8NTX77-66
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase A	EIKIBKLN_02939-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase B	EIKIBKLN_01283-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase C	EIKIBKLN_05763-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase D	EIKIBKLN_01349-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase E	EIKIBKLN_01759-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase G	EIKIBKLN_02890-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase H	EIKIBKLN_01337-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase I	EIKIBKLN_02934-MONOMER
+SUBUNIT-OF-CPLX	Ribosomal RNA small subunit methyltransferase J	EIKIBKLN_04347-MONOMER
+##	
+##	
+####	Complexes created, inferred by ABC TRANSPORTER ANALYSIS
+##	
+##	This specialized protein complex inference mechanism analyzes the subunits
+##	in one operon, of which some subunits contain the substring 'ABC transport'.
+##	Other subunits in the operon are added to the complex, if they contain words like
+##	'permease', 'ATP-binding', 'substrate binding', or 'periplasmic binding'.
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX8NTX77-62
+SUBUNIT-OF-CPLX	ATP-binding/permease protein CydD	EIKIBKLN_04100-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding/permease protein	EIKIBKLN_04101-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX8NTX77-61
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein YknY	EIKIBKLN_04845-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter permease YknZ	EIKIBKLN_04846-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX8NTX77-60
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein	EIKIBKLN_04560-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein	EIKIBKLN_04561-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX8NTX77-59
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein YknY	EIKIBKLN_03054-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter permease YknZ	EIKIBKLN_03053-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX8NTX77-58
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein YxdL	EIKIBKLN_04047-MONOMER
+SUBUNIT-OF-CPLX	Bacitracin export permease protein BceB	EIKIBKLN_04048-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX8NTX77-57
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein YxdL	EIKIBKLN_02279-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease protein YxdM	EIKIBKLN_02278-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease protein YxdM	EIKIBKLN_02280-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX8NTX77-56
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein YxdL	EIKIBKLN_01884-MONOMER
+SUBUNIT-OF-CPLX	ABC transporter permease protein YxdM	EIKIBKLN_01882-MONOMER
+##	
+CPLX-ABC-TRANSPORT	ABC transporter	CPLX8NTX77-54
+SUBUNIT-OF-CPLX	putative ABC transporter ATP-binding protein YknY	EIKIBKLN_02656-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter permease YknZ	EIKIBKLN_02655-MONOMER
+##	
+CPLX-ABC-TRANSPORT	Bacitracin transport	CPLX8NTX77-55
+SUBUNIT-OF-CPLX	ABC transporter ATP-binding protein YtrB	EIKIBKLN_03573-MONOMER
+SUBUNIT-OF-CPLX	Bacitracin transport ATP-binding protein BcrA	EIKIBKLN_03575-MONOMER
+##	
+CPLX-ABC-TRANSPORT	hemin import	CPLX8NTX77-53
+SUBUNIT-OF-CPLX	Putative hemin import ATP-binding protein HrtA	EIKIBKLN_00587-MONOMER
+SUBUNIT-OF-CPLX	putative ABC transporter permease	EIKIBKLN_00588-MONOMER
+##	
+CPLX-ABC-TRANSPORT	multidrug resistance ABC transporter	CPLX8NTX77-52
+SUBUNIT-OF-CPLX	putative multidrug resistance ABC transporter ATP-binding/permease protein YheH	EIKIBKLN_01013-MONOMER
+SUBUNIT-OF-CPLX	putative multidrug resistance ABC transporter ATP-binding/permease protein YheI	EIKIBKLN_01014-MONOMER
+##	
+CPLX-ABC-TRANSPORT	multidrug resistance ABC transporter	CPLX8NTX77-51
+SUBUNIT-OF-CPLX	putative multidrug resistance ABC transporter ATP-binding/permease protein YheH	EIKIBKLN_03106-MONOMER
+SUBUNIT-OF-CPLX	putative multidrug resistance ABC transporter ATP-binding/permease protein YheI	EIKIBKLN_03105-MONOMER
+##	
+##	
+####	Complexes that pre-existed in the PGDB
+##	
+CPLX-PRE-EXISTING	putative K+ ATP-driven transporter	CPLX8NTX77-1
+SUBUNIT-OF-CPLX	Potassium-transporting ATPase KdpC subunit	EIKIBKLN_03003-MONOMER
+SUBUNIT-OF-CPLX	Potassium-transporting ATPase potassium-binding subunit	EIKIBKLN_03001-MONOMER
+##	
+CPLX-PRE-EXISTING	putative L-glutamine ABC transporter	CPLX8NTX77-3
+SUBUNIT-OF-CPLX	ABC transporter glutamine-binding protein GlnH	EIKIBKLN_05225-MONOMER
+SUBUNIT-OF-CPLX	putative glutamine ABC transporter permease protein GlnM	EIKIBKLN_05224-MONOMER
+SUBUNIT-OF-CPLX	putative glutamine ABC transporter permease protein GlnP	EIKIBKLN_05223-MONOMER
+##	
+CPLX-PRE-EXISTING	putative an oligopeptide ATP-driven transporter	CPLX8NTX77-2
+SUBUNIT-OF-CPLX	Oligopeptide transport system permease protein OppB	EIKIBKLN_03396-MONOMER
+SUBUNIT-OF-CPLX	Oligopeptide transport system permease protein OppC	EIKIBKLN_03397-MONOMER
+##	
+##	
+####	 37 Polypeptides containing subunit-related words, but with no matching sibling subunits.
+##	The columns are:
+## Protein ID	Canonicalized core string used for matching	Common Name
+##	
+EIKIBKLN_03471-MONOMER	2oxoglutaratedehydrogenasee1	2-oxoglutarate dehydrogenase E1 component
+EIKIBKLN_01138-MONOMER	2oxoglutarateoxidoreductase	2-oxoglutarate oxidoreductase subunit KorA
+EIKIBKLN_04428-MONOMER	acetatecoatransferase	Acetate CoA-transferase subunit alpha
+EIKIBKLN_05867-MONOMER	acetophenonecarboxylase	Acetophenone carboxylase gamma subunit
+EIKIBKLN_04097-MONOMER	alkanalmonooxygenase	Alkanal monooxygenase alpha chain
+EIKIBKLN_04292-MONOMER	assimilatorynitritereductasenad@p@h	Assimilatory nitrite reductase [NAD(P)H] small subunit
+EIKIBKLN_03621-MONOMER	atpphosphoribosyltransferase	ATP phosphoribosyltransferase regulatory subunit
+EIKIBKLN_03470-MONOMER	dihydrolipoyllysineresiduesuccinyltransferasecomponentof2oxoglutaratedehydrogenasecomplex	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex
+EIKIBKLN_02041-MONOMER	dnapolymeraseiii	DNA polymerase III subunit alpha
+EIKIBKLN_02916-MONOMER	enterobactinsynthase	Enterobactin synthase component B
+EIKIBKLN_03854-MONOMER	flagellarhookbasalbodycomplex	Flagellar hook-basal body complex protein FliE
+EIKIBKLN_05139-MONOMER	glutamatesynthasenadph	Glutamate synthase [NADPH] large chain
+EIKIBKLN_04211-MONOMER	glutamyltrnaglnamidotransferasesubunitachloroplasticmitochondrial	Glutamyl-tRNA(Gln) amidotransferase subunit A, chloroplastic/mitochondrial
+EIKIBKLN_03730-MONOMER	heptaprenyldiphosphatesynthase	Heptaprenyl diphosphate synthase component 2
+EIKIBKLN_00186-MONOMER	na+translocatingnadhquinonereductase	Na(+)-translocating NADH-quinone reductase subunit F
+EIKIBKLN_00534-MONOMER	nad@p@hquinoneoxidoreductasesubunit2chloroplastic	NAD(P)H-quinone oxidoreductase subunit 2, chloroplastic
+EIKIBKLN_02708-MONOMER	nad@p@hquinoneoxidoreductasesubunitjchloroplastic	NAD(P)H-quinone oxidoreductase subunit J, chloroplastic
+EIKIBKLN_03881-MONOMER	nitrilotriacetatemonooxygenase	Nitrilotriacetate monooxygenase component A
+EIKIBKLN_04478-MONOMER	nucleasesbccd	Nuclease SbcCD subunit D
+EIKIBKLN_03528-MONOMER	poly3hydroxyalkanoatepolymerase	Poly(3-hydroxyalkanoate) polymerase subunit PhaC
+EIKIBKLN_03002-MONOMER	potassiumtransportingatpase	Potassium-transporting ATPase ATP-binding subunit
+EIKIBKLN_03214-MONOMER	ptsdependentdihydroxyacetonekinasedihydroxyacetonebinding	PTS-dependent dihydroxyacetone kinase, dihydroxyacetone-binding subunit DhaK
+EIKIBKLN_03200-MONOMER	ptssystembetaglucosidespecificeiibca	PTS system beta-glucoside-specific EIIBCA component
+EIKIBKLN_03078-MONOMER	ptssystemeiibc	PTS system EIIBC component
+EIKIBKLN_01078-MONOMER	ptssystemfructosespecificeiiabc	PTS system fructose-specific EIIABC component
+EIKIBKLN_02729-MONOMER	ptssystemglucosespecificeiia	PTS system glucose-specific EIIA component
+EIKIBKLN_01478-MONOMER	ptssystemglucosespecificeiicba	PTS system glucose-specific EIICBA component
+EIKIBKLN_04976-MONOMER	ptssystemglucosidespecificeiicba	PTS system glucoside-specific EIICBA component
+EIKIBKLN_05108-MONOMER	ptssystemnacetylglucosaminespecificeiicb	PTS system N-acetylglucosamine-specific EIICB component
+EIKIBKLN_05237-MONOMER	ptssystemtrehalosespecificeiibc	PTS system trehalose-specific EIIBC component
+EIKIBKLN_00564-MONOMER	recbcdenzyme	RecBCD enzyme subunit RecD
+EIKIBKLN_02895-MONOMER	ribonucleasep	Ribonuclease P protein component
+EIKIBKLN_02146-MONOMER	ribosomalsmallsubunitpseudouridinesynthase	Ribosomal small subunit pseudouridine synthase A
+EIKIBKLN_01953-MONOMER	succinatedehydrogenase	Succinate dehydrogenase cytochrome b558 subunit
+EIKIBKLN_04429-MONOMER	succinylcoa3ketoacidcoenzymeatransferase	putative succinyl-CoA:3-ketoacid coenzyme A transferase subunit B
+EIKIBKLN_04192-MONOMER	twocomponentmembranepermeasecomplexsubunitsmu746c	Putative two-component membrane permease complex subunit SMU_746c
+EIKIBKLN_04191-MONOMER	twocomponentmembranepermeasecomplexsubunitsmu747c	Putative two-component membrane permease complex subunit SMU_747c
